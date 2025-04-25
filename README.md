@@ -1,3 +1,10 @@
+This is a 1 Click installer based on the trellis 1 click installer with a embeded Python install , i hade to add and modify the batch files extensivly to make it work based on : <a href="https://github.com/IgorAherne/trellis-stable-projectorz">Igor Aherne 2025</a>
+
+Usage just Click on the run-gradio.bat file , while installing it will ask you to scroll up and check your cuda version and chose the closest one to you 1-4 avalible cuda cu118,cu121 and cu124) 
+
+Youtube Video will be posted <a href="https://www.youtube.com/@RetroUpgrade" >RetroUpgrade - Youtube</a> showing the usage of the installer. 
+<hr width="100%" size="2">
+
 # Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging
 
 <div class="is-size-5 publication-authors">
