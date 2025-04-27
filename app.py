@@ -121,7 +121,10 @@ def generate_3d(image, seed=-1,
     trimesh_mesh = generated_mesh.to_trimesh(transform_pose=True)
 
     trimesh_mesh.export(mesh_path)
-
+    # Added to Remove Video Memory Leake acumulating on every run with new image 
+    del outputs  # Explicitly delete output tensors
+    torch.cuda.empty_cache()  # Force release unused memory
+    
     return normal_image, mesh_path, mesh_path
 
 def convert_mesh(mesh_path, export_format):
@@ -277,5 +280,5 @@ if __name__ == "__main__":
         normal_predictor = torch.hub.load("hugoycj/StableNormal", "StableNormal_turbo", trust_repo=True, yoso_version='yoso-normal-v1-8-1', local_cache_dir='./weights')    
 
     # Launch the app
-    demo.launch(share=False, server_name="0.0.0.0")
+    demo.launch(share=False, server_name="127.0.0.1")  #Changed form 0.0.0.0 for local infrence 
 
