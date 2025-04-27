@@ -3,7 +3,7 @@ This is a 1 Click installer based on the trellis 1 click installer with a embede
 Usage just Click on the run-gradio.bat file , while installing it will ask you to scroll up and check your cuda version and chose the closest one to you 1-4 avalible cuda cu118,cu121 and cu124) 
 
 Youtube Video will be posted <a href="https://www.youtube.com/@RetroUpgrade" >RetroUpgrade - Youtube</a> showing the usage of the installer. 
-Video Guide and demo of the 1 click installer :  <a href="[https://www.youtube.com/@RetroUpgrade](https://www.youtube.com/watch?v=D6zmEsGCrbk&t=59s)" >Hi3DGen 1-Click Installer: Turn Any Image into 3D in Seconds!</a>
+Video Guide and demo of the 1 click installer :  <a href="https://www.youtube.com/watch?v=D6zmEsGCrbk&t=59s" >Hi3DGen 1-Click Installer: Turn Any Image into 3D in Seconds!</a>
 <hr width="100%" size="2">
 
 # Hi3DGen: High-fidelity 3D Geometry Generation from Images via Normal Bridging
